@@ -1,0 +1,39 @@
+1	0.99	PPSE	[['west','south','on'],['south','south','off'],['south','east','on'],['west','east','off']]	west	None	8	7
+2	0.99	CPSE	[['east','north','on'],['south','north','off'],['south','west','on'],['east','west','off']]	None	None	1	6
+3	0.99	CPSE	[['east','local','on'],['south','local','off'],['south','west','on'],['east','west','off']]	None	local	None	2
+4	0.99	PPSE	[['south','west','on'],['east','west','off']]	None	west	None	None
+5	0.99	PPSE	[['south','west','on'],['east','west','off'],['east','south','on'],['south','south','off']]	south	None	4	9
+6	0.99	CPSE	[['south','west','on'],['east','west','off'],['east','north','on'],['south','north','off']]	None	None	5	2
+7	0.99	CPSE	[['west','south','on'],['north','south','off'],['north','north','on'],['west','north','off']]	None	None	11	3
+8	0.99	PPSE	[['south','south','on'],['north','south','off'],['north','north','on'],['south','north','off']]	None	south	None	4
+9	0.99	PPSE	[['north','east','on'],['north','east','off']]	None	None	10	14
+10	0.99	CPSE	[['west','north','on'],['south','north','off'],['south','east','on'],['west','east','off']]	None	None	6	7
+11	0.99	CPSE	[['north','east','on'],['west','east','off'],['west','south','on'],['north','south','off']]	None	None	12	14
+12	0.99	CPSE	[['local','east','on'],['west','east','off'],['west','west','on'],['local','west','off']]	local	None	13	15
+13	0.99	PPSE	[['north','east','on'],['west','east','off'],['west','west','on'],['north','west','off']]	north	east	None	3
+14	0.99	CPSE	[['west','east','on'],['north','east','off'],['north','east','on'],['west','east','off']]	None	None	15	11
+15	0.99	PPSE	[['east','east','on'],['west','east','off'],['west','north','on'],['east','north','off']]	None	None	16	8
+16	0.99	PPSE	[['east','north','on'],['west','north','off'],['west','north','on'],['east','north','off']]	east	north	None	10
+
+crossing	4	0	1	8
+crossing	0	7	3	2
+crossing	0	12	13	3
+crossing	16	10	9	14
+crossing	15	8	16	10
+crossing	0	5	15	8
+crossing	15	8	14	16
+bend	1	7	1
+bend	7	3	1
+bend	2	8	2
+bend	0	13	1
+bend	13	3	2
+bend	9	10	1
+bend	0	5	1
+bend	5	9	1
+bend	8	4	1
+bend	15	8	1
+bend	12	15	1
+bend	9	14	1
+bend	14	15	1
+bend	16	0	1
+bend	16	10	1
