@@ -1,0 +1,8 @@
+worstcase_reliability:	0.99880065978
+average_reliability:	0.999155147895
+worstcase [crossing , bend , Y_coupling , CPSE,on , CPSE,off , PPSE,on , PPSE,off]	[2, 2, 0, 2, 4, 2, 4]
+average [crossing , bend , Y_coupling , CPSE,on , CPSE,off , PPSE,on , PPSE,off]	[1.69230769 2.86538462 0.         1.30769231 2.09615385 2.875
+ 2.17307692]
+two_sim_routes:	0.998101709031	[[0, 1, 0, 0, 6, 1, 2], [1, 0, 0, 3, 4, 0, 3]]
+three_sim_routes:	0.99800189886	[[0, 0, 0, 1, 0, 0, 0], [1, 0, 0, 3, 3, 2, 2], [2, 0, 0, 3, 2, 0, 4]]
+four_sim_routes:	0.99800189886	[[0, 0, 0, 0, 3, 0, 3], [0, 0, 0, 1, 0, 0, 1], [0, 2, 0, 0, 3, 0, 3], [2, 1, 0, 1, 2, 2, 1]]
