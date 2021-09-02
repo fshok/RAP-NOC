@@ -1,0 +1,22 @@
+1	0.9	PPSE	[['north','local','on'],['south','north','off'],['south','south','on'],['north','south','off']]	north	local	None	3
+2	0.9	PPSE	[['local','west','on'],['east','west','off'],['east','east','on'],['local','east','off']]	local	west	None	3
+3	0.9	CPSE	[['north','south','off'],['west','south','on'],['west','east','off'],['north','east','on']]	None	None	6	4
+4	0.9	CPSE	[['south','north','off'],['west','north','on'],['west','east','off'],['south','east','on']]	None	north	None	11
+5	0.9	CPSE	[['east','west','off'],['south','west','on'],['south','north','off'],['east','north','on']]	None	None	2	1
+6	0.9	CPSE	[['east','west','off'],['north','west','on'],['north','south','off'],['east','south','on']]	None	None	5	9
+7	0.9	CPSE	[['south','north','off'],['east','north','on'],['east','west','off'],['south','west','on']]	east	None	4	6
+8	0.9	CPSE	[['west','east','off'],['south','east','on'],['south','north','off'],['west','north','on']]	west	None	9	5
+9	0.9	CPSE	[['north','south','off'],['west','south','on'],['west','east','off'],['north','east','on']]	None	south	None	10
+10	0.9	CPSE	[['west','east','off'],['south','east','on'],['south','north','off'],['west','north','on']]	None	None	11	7
+11	0.9	PPSE	[['west','east','off']]	None	east	None	None
+12	0.9	PPSE	[['south','north','off'],['south','north','on']]	south	None	10	8
+
+crossing	2	3	5	1
+crossing	12	8	9	0
+crossing	4	11	0	7
+bend	1	3	2
+bend	12	8	2
+bend	4	11	2
+bend	5	2	2
+bend	1	0	1
+bend	0	2	1

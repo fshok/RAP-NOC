@@ -1,0 +1,71 @@
+1	0.99999	CPSE	[['west','north','on'],['south','north','off'],['south','east','on'],['west','east','off']]	west	north	None	4
+2	0.99999	PPSE	[['north','up','on'],['down','up','off'],['down','south','on'],['north','south','off']]	north	up	None	7
+3	0.99999	PPSE	[['up','south','on'],['up','down','off']]	up	None	5	7
+4	0.99999	PPSE	[['west','down','on'],['down','down','off'],['down','east','on'],['west','east','off']]	None	None	14	5
+5	0.99999	CPSE	[['north','east','on'],['west','east','off'],['west','south','on'],['north','south','off']]	None	None	6	8
+6	0.99999	PPSE	[['west','up','on'],['down','up','off'],['down','south','on'],['west','south','off']]	None	None	2	9
+7	0.99999	PPSE	[['north','up','on'],['down','up','off'],['down','east','on'],['north','east','off']]	None	None	4	8
+8	0.99999	CPSE	[['west','south','on'],['north','south','off'],['north','east','on'],['west','east','off']]	None	None	17	9
+9	0.99999	CPSE	[['west','south','on'],['north','south','off'],['north','south','on'],['west','south','off']]	None	None	15	13
+10	0.99999	CPSE	[['south','north','on'],['east','north','off'],['east','east','on'],['south','east','off']]	None	None	1	14
+11	0.99999	CPSE	[['west','west','on'],['south','west','off'],['south','east','on'],['west','east','off']]	None	west	None	15
+12	0.99999	CPSE	[['west','up','on'],['down','up','off'],['down','east','on'],['west','east','off']]	None	None	6	13
+13	0.99999	PPSE	[['west','south','on'],['north','south','off']]	None	None	24	24
+14	0.99999	CPSE	[['west','down','on'],['up','down','off'],['up','east','on'],['west','east','off']]	None	None	21	11
+15	0.99999	CPSE	[['west','east','on'],['north','east','off'],['north','east','on'],['west','east','off']]	None	east	None	12
+16	0.99999	CPSE	[['east','north','on'],['south','north','off'],['south','north','on'],['east','north','off']]	None	None	11	10
+17	0.99999	CPSE	[['east','south','on'],['north','south','off'],['north','west','on'],['east','west','off']]	None	None	22	16
+18	0.99999	PPSE	[['down','west','on'],['south','west','off'],['south','down','on'],['up','down','off']]	None	None	17	23
+19	0.99999	PPSE	[['injection','north','on']]	injection	None	10	10
+20	0.99999	PPSE	[['south','ejection','off']]	None	ejection	None	None
+21	0.99999	PPSE	[['east','down','on'],['up','down','off'],['up','north','on'],['east','north','off']]	None	None	26	16
+22	0.99999	CPSE	[['east','west','on'],['north','west','off'],['north','west','on'],['east','west','off']]	None	None	25	21
+23	0.99999	PPSE	[['east','up','on'],['up','up','off'],['up','west','on'],['east','west','off']]	None	None	12	22
+24	0.99999	CPSE	[['east','south','on'],['north','south','off'],['north','west','on'],['east','west','off']]	east	south	None	23
+25	0.99999	PPSE	[['down','north','on'],['east','north','off'],['east','up','on'],['down','up','off']]	down	None	20	18
+26	0.99999	PPSE	[['south','down','on'],['up','down','off'],['up','north','on'],['south','north','off']]	south	down	None	18
+
+crossing	2	7	3	7
+crossing	4	5	2	7
+crossing	3	7	1	4
+crossing	0	3	6	2
+crossing	4	14	3	7
+crossing	11	0	14	4
+crossing	10	1	11	0
+crossing	9	13	12	6
+crossing	8	17	11	15
+crossing	13	24	15	0
+crossing	15	0	23	12
+crossing	23	12	25	18
+crossing	14	21	16	10
+crossing	21	26	22	25
+crossing	23	22	26	18
+crossing	25	18	24	23
+crossing	26	18	25	18
+crossing	25	18	21	26 
+bend	1	6	1
+bend	6	9	2
+bend	15	0	1
+bend	0	7	3
+bend	7	4	1
+bend	4	14	1
+bend	14	26	2
+bend	26	0	1
+bend	7	8	1
+bend	9	13	1
+bend	24	22	2
+bend	22	21	2
+bend	21	16	1
+bend	11	0	1
+bend	18	17	1
+bend	16	10	1
+bend	25	18	1
+bend	18	23	1
+bend	23	12	1
+bend	6	2	2
+bend	2	0	1
+bend	3	5	1
+bend	22	25	1
+bend	25	20	1
+bend	20	10	1
+bend	12	13	1
