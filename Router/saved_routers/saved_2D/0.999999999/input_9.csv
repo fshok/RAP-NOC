@@ -1,0 +1,31 @@
+1	0.999999999	PPSE	[['dl','ul','off']]	None	ul	None	None
+2	0.999999999	PPSE	[['ul','dl','off']]	ul	None	7	7
+3	0.999999999	PPSE	[['dr','ur','off']]	None	ur	None	None
+4	0.999999999	PPSE	[['ur','dr','off']]	ur	None	8	8
+5	0.999999999	CPSE	[['dr','ul','on'],['dl','ul','off'],['dl','ur','on'],['dr','ur','off']]	None	None	1	6
+6	0.999999999	CPSE	[['dl','ur','on'],['dr','ur','off'],['dr','ul','on'],['dl','ul','off']]	None	None	3	5
+7	0.999999999	CPSE	[['ul','dr','on'],['ur','dr','off'],['ur','dl','on'],['ul','dl','off']]	None	None	9	8
+8	0.999999999	CPSE	[['ur','dl','on'],['ul','dl','off'],['ul','dr','on'],['ur','dr','off']]	None	None	10	7
+9	0.999999999	CPSE	[['ur','ul','on'],['dl','ul','off'],['dl','dr','on'],['ur','dr','off']]	None	None	6	12
+10	0.999999999	CPSE	[['dr','dl','on'],['ul','dl','off'],['ul','ur','on'],['dr','ur','off']]	None	None	13	5
+11	0.999999999	PPSE	[['dl','ul','off']]	dl	None	9	9
+12	0.999999999	PPSE	[['ur','dr','off']]	None	dr	None	None
+13	0.999999999	PPSE	[['ul','dl','off']]	None	dl	None	None
+14	0.999999999	PPSE	[['dr','ur','off']]	dr	None	10	10
+
+crossing	2	7	6	3
+crossing	7	9	9	5
+crossing	10	5	11	9
+crossing	8	10	9	12
+bend	14	10	1
+bend	9	12	1
+bend	11	9	1
+bend	10	13	1
+bend	8	10	1
+bend	9	6	1
+bend	7	9	1
+bend	10	5	1
+bend	4	8	1
+bend	6	3	1
+bend	2	7	1
+bend	5	1	1
